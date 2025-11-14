@@ -84,7 +84,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'grade_lens_db',      
+        # 'NAME': 'grade_lens_db',     
+        'NAME': 'grade_lens_test_database', 
         'USER': 'root',                  
         'PASSWORD': 'root',     
         'HOST': 'localhost',

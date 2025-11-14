@@ -90,8 +90,12 @@ class Grader:
         self.agent = self.create_grader_agent()
 
     def grade_answer(self, answer):
+        if answer == "" or answer == None or answer.lower() == "not answered":
+            word_count = 0
+        else:
+            word_count = len(answer.split())
         response_prompt = f'''Grade the following answer based on the provided rubrics, context, and question. 
-        The word count of the answer is: {len(answer.split())}\n
+        The word count of the answer is: {word_count}\n
         Answer:\n\n{answer}'''
         # self.agent.print_response(response_prompt, 
         #              stream=True,

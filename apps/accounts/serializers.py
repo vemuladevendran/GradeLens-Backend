@@ -3,7 +3,30 @@ from .models import *
 from django.db import transaction
 
 from .models import StudentExamSubmission, StudentAnswer
-from rest_framework import serializers
+
+
+class UpdateAnswerGradeSerializer(serializers.Serializer):
+    question_id = serializers.IntegerField()
+    received_weight = serializers.FloatField(required=False)
+    feedback = serializers.CharField(allow_blank=True, required=False)
+    is_graded = serializers.BooleanField(required=False)
+
+class UpdateSubmissionSerializer(serializers.Serializer):
+    overall_received_score = serializers.FloatField(required=False)
+    overall_feedback = serializers.CharField(allow_blank=True, required=False)
+    answers = UpdateAnswerGradeSerializer(many=True, required=False)
+
+class SaveGradeAnswerSerializer(serializers.Serializer):
+    question_id = serializers.IntegerField()
+    received_weight = serializers.FloatField()
+    feedback = serializers.CharField(allow_blank=True, required=False, default="")
+    is_graded = serializers.BooleanField(default=True)
+
+class SaveGradeInputSerializer(serializers.Serializer):
+    overall_received_score = serializers.FloatField()
+    overall_feedback = serializers.CharField(allow_blank=True, required=False, default="")
+    answers = SaveGradeAnswerSerializer(many=True)
+
 
 class CourseNoteSerializer(serializers.ModelSerializer):
     class Meta:
