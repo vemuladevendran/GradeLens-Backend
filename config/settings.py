@@ -87,7 +87,7 @@ DATABASES = {
         # 'NAME': 'grade_lens_db',     
         'NAME': 'grade_lens_test_database', 
         'USER': 'root',                  
-        'PASSWORD': 'root',     
+        'PASSWORD': '',     
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
