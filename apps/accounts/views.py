@@ -93,7 +93,8 @@ def create_and_save_grader(exam: Exam, course_id):
 
     retrived_chunks = {}
     for q in questions:
-        retrived_chunks[q] = retrieve_relevant_chunks(q.question, course_id)
+        x = retrieve_relevant_chunks(q.question, course_id)
+        retrived_chunks[q.question] = x
 
     grader_executor = ExecuteGrader(
         rubrics=exam.rubrics,

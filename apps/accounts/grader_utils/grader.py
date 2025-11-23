@@ -23,6 +23,7 @@ class Grader:
         top_p=float(os.getenv('ANTHROPIC_TOP_P'))
     ),
     instructions=["You are a grader and you will be grading a student's answer.",
+                  "Think silently about how the grading should be done",
                   "You will be provided with the rubrics for grading, context about the question and actual question",
                   f"Here are the Rubrics:\n{self.rubrics}",
                   f"Here is the question:{self.question}",
@@ -113,6 +114,9 @@ class Grader:
             response_json = self.convert_to_json(self.agent.run(response_prompt))
             print("Object was on not a valid json! Retrying...")
             i += 1
+
+        print("These are the chunks")
+        print(self.context)
 
         return response_json
 

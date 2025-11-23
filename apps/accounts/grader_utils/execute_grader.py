@@ -17,12 +17,17 @@ class ExecuteGrader:
 
         self.graders = {}
         for asmt in assessments:
+            print(asmt.question)
+            print(retrived_chunks.get(asmt.question))
+            print("\n"*5)
             self.graders[asmt.question] = Grader(rubrics, 
                                                  retrived_chunks.get(asmt.question), 
                                                  asmt.question, 
                                                  asmt.min_words, 
                                                  asmt.question_weight,
                                                  strictness = strictness)
+            
+
 
 
     # def grade_exams(self, answerdata):
