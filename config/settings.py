@@ -85,9 +85,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'grade_lens_db',     
-        'NAME': 'grade_lens_test_database', 
+        # 'NAME': 'grade_lens_test_database', 
+        'NAME': 'gradelens',
         'USER': 'root',                  
-        'PASSWORD': '',     
+        'PASSWORD': 'root',     
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
