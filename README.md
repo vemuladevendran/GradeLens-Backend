@@ -51,7 +51,7 @@ At the end, this document also includes the Pi-Scorer model evaluation step that
 
 # 1. Approach 1 — Strictness Prompt Adder
 
-<img src="RAG DEVELOPMENT\images\approach1.png" width="650"/>
+<img src="images\approach1.png" width="650"/>
 
 ### Idea
 Inject strictness as plain text into the grader prompt alongside:
@@ -72,7 +72,7 @@ Not reliable or consistent.
 
 # 2. Approach 2 — Add Strictness Criteria to the Prompt
 
-<img src="RAG DEVELOPMENT\images\approach2.png" width="650"/>
+<img src="images\approach2.png" width="650"/>
 
 ### Idea
 Include detailed strictness rules, strictness value, and all grading inputs.
@@ -91,7 +91,7 @@ Better than Approach 1, but still unpredictable.
 
 # 3. Approach 3 — Strictness-Based Rubrics Agent
 
-<img src="RAG DEVELOPMENT\images\approach3.png" width="700"/>
+<img src="images\approach3.png" width="700"/>
 
 ### Idea
 Split the system into:
@@ -115,7 +115,7 @@ Promising concept, but impractical for production.
 
 # 4. Approach 4 — Multiple Dedicated Strictness Agents
 
-<img src="RAG DEVELOPMENT\images\approach4.png" width="700"/>
+<img src="images\approach4.png" width="700"/>
 
 ### Idea
 Create three separate agents:
@@ -140,7 +140,7 @@ Reasonable isolation, but not scalable.
 
 # 5. Approach 5 — Final Architecture (Working and Efficient)
 
-<img src="RAG DEVELOPMENT\images\approach5.png" width="700"/>
+<img src="images\approach5.png" width="700"/>
 
 ### Core Idea
 Pre-build a dedicated grader for each exam question, save it, and reuse it for all student submissions.
