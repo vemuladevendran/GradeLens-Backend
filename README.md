@@ -42,6 +42,197 @@ This ensures:
 
 ---
 
+# GradeLens — Grader Engine Development Journey
+
+This document explains the full engineering evolution of the GradeLens AI Grader, from early prototypes to the final scalable architecture. Five different approaches were explored, evaluated, and refined. Only the fifth approach proved stable, consistent, and efficient enough for real-world use.  
+At the end, this document also includes the Pi-Scorer model evaluation step that helped determine the best-performing LLM settings.
+
+---
+
+# 1. Approach 1 — Strictness Prompt Adder
+
+<img src="RAG DEVELOPMENT\images\approach1.png" width="650"/>
+
+### Idea
+Inject strictness as plain text into the grader prompt alongside:
+- Question
+- Student Response
+- Rubrics
+- Retrieved Context
+
+### Problems
+- Strictness was not understood; the LLM gave inconsistent scoring.
+- Lenient sometimes produced lower marks than moderate.
+- Strictness text was too weak to control behavior.
+
+### Verdict
+Not reliable or consistent.
+
+---
+
+# 2. Approach 2 — Add Strictness Criteria to the Prompt
+
+<img src="RAG DEVELOPMENT\images\approach2.png" width="650"/>
+
+### Idea
+Include detailed strictness rules, strictness value, and all grading inputs.
+
+### Outcome
+Slight improvement over Approach 1.
+
+### Problems
+- Still unstable between strictness levels.
+- LLM did not reliably map rules into scoring behavior.
+
+### Verdict
+Better than Approach 1, but still unpredictable.
+
+---
+
+# 3. Approach 3 — Strictness-Based Rubrics Agent
+
+<img src="RAG DEVELOPMENT\images\approach3.png" width="700"/>
+
+### Idea
+Split the system into:
+- A Rubrics Agent that generates strictness-based rubrics.
+- A Grader Agent that grades using those generated rubrics.
+
+### Strengths
+- Strict and lenient grading were more aligned.
+- Moderate grading was reasonably stable.
+
+### Problems
+1. Very resource-heavy.
+2. Fairness issue: new rubrics were generated for each student.
+3. No guarantee the generated rubric quality was optimal.
+4. Reusing generated rubrics still did not solve reliability problems.
+
+### Verdict
+Promising concept, but impractical for production.
+
+---
+
+# 4. Approach 4 — Multiple Dedicated Strictness Agents
+
+<img src="RAG DEVELOPMENT\images\approach4.png" width="700"/>
+
+### Idea
+Create three separate agents:
+- Lenient Grader
+- Moderate Grader
+- Strict Grader
+
+Select agent based on input strictness.
+
+### Outcome
+More predictable than the previous approaches.
+
+### Problems
+- Repeated recomputation of context and prompts.
+- Expensive for multi-question exams.
+- Some variation persisted between strictness levels.
+
+### Verdict
+Reasonable isolation, but not scalable.
+
+---
+
+# 5. Approach 5 — Final Architecture (Working and Efficient)
+
+<img src="RAG DEVELOPMENT\images\approach5.png" width="700"/>
+
+### Core Idea
+Pre-build a dedicated grader for each exam question, save it, and reuse it for all student submissions.
+
+### How It Works
+1. Professor creates the exam.
+2. Grader Initializer creates one grader per question, containing:
+   - Retrieved context chunks
+   - Rubrics
+   - Question text
+   - Strictness logic
+3. All graders are saved as a pickle file.
+4. Parallel Executor loads the graders and grades each student answer concurrently.
+5. The output is consistent JSON with score and feedback.
+
+### Why This Works
+- No recomputation of context or rubrics.
+- Consistent strictness behavior.
+- Same grader used for all students (fairness).
+- Very fast for multi-question exams.
+- Supports parallelization.
+- Lower token usage after initialization.
+- Reproducible and stable.
+
+### Verdict
+This is the final and production-ready architecture for GradeLens.
+
+---
+
+# Model Evaluation With Pi-Scorer (Finding the Best Settings)
+
+To avoid guesswork, multiple model configurations were evaluated using Pi Labs’ Pi-Scorer, which scores the model across:
+- Balanced Evaluation
+- Constructive Feedback
+- Content Recognition
+- Logical Alignment
+- Rubric Coverage
+- Schema Compliance
+- Prompt Fulfillment
+- Professional Tone
+- Note Grounding and Referencing
+- Consistency
+- Relevance Enforcement
+
+Each trial used identical:
+- Questions
+- Rubrics
+- Student responses
+- Retrieved context
+
+Only model parameters changed.
+
+---
+
+## Best Model Settings (Empirically Verified)
+
+After several experiments, the best-performing configuration was:
+
+
+### Reasons
+- Temperature 0.7 provides balanced flexibility without hallucinations.
+- Top_p 1.0 avoids collapsing into deterministic behavior.
+- max_tokens 10000 is required due to the large grader prompt.
+- Produced the most consistent strictness behavior.
+- Achieved the highest overall Pi-Scorer performance.
+
+---
+
+## Sample Pi-Scorer Output
+
+
+This configuration was the strongest across repeated runs.
+
+---
+
+# Final Summary
+
+| Approach | Result |
+|----------|--------|
+| Approach 1 | Failed; strictness ignored |
+| Approach 2 | Still inconsistent |
+| Approach 3 | Too heavy; fairness issues |
+| Approach 4 | Better but not scalable |
+| Approach 5 | Final architecture; consistent and efficient |
+
+Pi-Scorer was essential in selecting the optimal LLM configuration to ensure consistent and accurate grading behavior.
+
+---
+
+
+
+
 # 📅 Weekly Progress Timeline
 
 Below is a detailed, documented progression of the project from initial setup to final implementation.
@@ -176,4 +367,5 @@ Below is a detailed, documented progression of the project from initial setup to
 - **Devendran Vemula** – Backend, Frontend
 - **Srinivasan Poonkundran** – RAG development, Backend APIs Integration
 - **Tejasree Nimmagadda** – Document Preparation, Data Analysis
+
 
