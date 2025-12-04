@@ -228,6 +228,7 @@ This configuration was the strongest across repeated runs.
 
 Pi-Scorer was essential in selecting the optimal LLM configuration to ensure consistent and accurate grading behavior.
 
+You can view the pi scores that was used to find the best model here: https://github.com/vemuladevendran/GradeLens-Backend/blob/main/RAG%20DEVELOPMENT/data/outputs/pi_scores/scoring_forstudent_answer_correct_a.csv
 ---
 
 
@@ -237,7 +238,6 @@ Pi-Scorer was essential in selecting the optimal LLM configuration to ensure con
 
 Below is a detailed, documented progression of the project from initial setup to final implementation.
 
-You can view the pi scores that was used to find the best model here: https://github.com/vemuladevendran/GradeLens-Backend/blob/main/RAG%20DEVELOPMENT/data/outputs/pi_scores/scoring_forstudent_answer_correct_a.csv
 ---
 
 ## 🟦 Week 1–2: Core RAG Development
@@ -368,6 +368,7 @@ You can view the pi scores that was used to find the best model here: https://gi
 - **Devendran Vemula** – Backend, Frontend
 - **Srinivasan Poonkundran** – RAG development, Backend APIs Integration
 - **Tejasree Nimmagadda** – Document Preparation, Data Analysis
+
 
 
 
