@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student demonstrated a proficient understanding of why land is central to Dakota religion and cultural identity. The explanation connects the land to spiritual and ancestral ties, reflecting a good grasp of the material.",
+      "score_received": "0.80"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is clear and mostly error-free. The answer meets the minimum word requirement, and the ideas are presented logically.",
+      "score_received": "1.00"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.30",
+      "feedback": "The response provides a direct answer to the question, showing insight into the importance of the land for the Dakota. However, the depth of insight could be further enhanced by including more examples or connections beyond the basic answer.",
+      "score_received": "0.70"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "0.80 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1.00 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "0.70 * 0.30",
+      "result": "0.21"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.35 + 0.21",
+    "result": "0.84"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "84"
+  },
+  "overall_feedback": "The student provided a clear and well-articulated response that demonstrated a good understanding of the material and adequately followed the instructional question. There is room for deeper insight and more comprehensive connections to achieve an exemplary level."
+}
+```

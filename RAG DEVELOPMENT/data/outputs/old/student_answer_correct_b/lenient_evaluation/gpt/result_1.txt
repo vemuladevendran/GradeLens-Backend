@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a strong understanding of the Dakota's connection to land, incorporating key elements from the course materials such as sacred stories, ceremonies, and generational memory. The connection between land and cultural identity is clearly articulated.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is clear and free from errors, meeting the minimum word requirement. The articulation of ideas is effective, but there is no mention of citations or formatting, which were not specifically required in the prompt.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student provides insightful connections between the land and Dakota cultural identity, following the instructional question well. The response reflects a good level of engagement with the course material.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.315 + 0.3",
+    "result": "0.965"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "96.5"
+  },
+  "overall_feedback": "The student provided a well-articulated and insightful response, demonstrating a strong understanding of the course material. While the academic presentation was mostly exemplary, minor aspects like citation and formatting should be considered in more extended responses."
+}
+```

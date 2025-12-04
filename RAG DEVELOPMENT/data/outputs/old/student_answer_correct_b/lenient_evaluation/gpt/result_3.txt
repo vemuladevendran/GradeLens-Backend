@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student's answer demonstrates a clear understanding of the course materials, accurately identifying the centrality of land to Dakota religion and cultural identity. The response makes a thoughtful connection by noting the significance of sacred stories and ceremonies in relation to ancestral and spiritual connections.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The answer is clearly articulated with no grammatical errors. Although concise, it meets the minimum word requirement and effectively communicates the intended message without needing complex formatting or citation.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The student provides an insightful response that directly addresses the instructional question with a clear and concise explanation of why land is central to the Dakota's religion and cultural identity. The response enriches the discussion by highlighting essential aspects of the question.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.35 + 0.3",
+    "result": "1"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "100"
+  },
+  "overall_feedback": "The student has provided an exemplary reflection that effectively understands and applies the course materials, is well-presented, and offers valuable insights into the instructional question. The response is concise yet comprehensive, demonstrating a high level of understanding and engagement."
+}
+```

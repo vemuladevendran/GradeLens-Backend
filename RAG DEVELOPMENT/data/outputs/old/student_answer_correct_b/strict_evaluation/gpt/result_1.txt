@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student's answer demonstrates a proficient understanding of the course materials. The explanation of the centrality of land to Dakota religion and cultural identity is clear and relevant, but lacks detailed examples or contextual explanations that would elevate it to an exemplary level.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The answer is mostly well-articulated and error-free. It meets the minimum word requirement and is clearly presented. However, there are no references or citations provided, which prevents it from reaching an exemplary level.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The student provides a proficient response to the instructional question, offering relevant insight into why land is central to Dakota religion and cultural identity. However, the response could be more comprehensive and include additional connections or examples.",
+      "score_received": "0.8"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "0.8 * 0.3",
+      "result": "0.24"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.28 + 0.24",
+    "result": "0.8"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "80"
+  },
+  "overall_feedback": "The student has provided a proficient response that demonstrates a solid understanding of the course materials and adequately addresses the instructional question. However, the answer could be improved by including more detailed examples and contextual explanations, as well as proper citations."
+}
+```

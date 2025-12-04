@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student's answer provides a comprehensive understanding of the Dakota people's connection to land, illustrating deep insight into the course materials. The answer makes relevant connections through explanations and examples.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The answer is well-written, clear, and free of errors. It adheres to the word count requirement and effectively communicates the ideas in a scholarly manner.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student's response is insightful and thoroughly addresses the instructional question, demonstrating a strong engagement with the course material.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.35 + 0.3",
+    "result": "1"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "100"
+  },
+  "overall_feedback": "The student's response is exemplary across all criteria. It shows a deep understanding of the course materials, is presented in a clear and scholarly manner, and insightfully engages with the instructional question."
+}
+```

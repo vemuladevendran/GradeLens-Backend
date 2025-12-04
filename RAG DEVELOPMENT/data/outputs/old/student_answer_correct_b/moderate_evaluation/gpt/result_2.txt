@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a solid understanding of the course materials, making accurate connections regarding the significance of land to Dakota culture and religion. However, the response lacks the depth and insight needed for an exemplary rating.",
+      "score_received": "0.75"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's writing is clear and free of errors. The response meets the minimum word count requirement, but lacks citations and a more structured format.",
+      "score_received": "0.7"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The answer shows engagement with the instructional questions but does not provide substantial insight beyond the basic connection between land and Dakota identity. More depth and external perspectives could enhance the response.",
+      "score_received": "0.7"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.75 * 0.35",
+      "result": "0.2625"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.7 * 0.35",
+      "result": "0.245"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.7 * 0.3",
+      "result": "0.21"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.2625 + 0.245 + 0.21",
+    "result": "0.7175"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "71.75"
+  },
+  "overall_feedback": "The student provides a proficient analysis of the Dakota's connection to land, showing a good understanding of the course materials. However, the response could benefit from more depth, citations, and a broader engagement with the instructional questions."
+}
+```

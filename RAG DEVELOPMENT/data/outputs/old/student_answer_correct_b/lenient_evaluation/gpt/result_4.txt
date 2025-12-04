@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a good understanding of course materials by effectively summarizing the central role of land in Dakota religion and cultural identity. The answer includes relevant connections to the spiritual and ancestral significance of the land.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is clear and concise, with no grammatical errors. The length meets the word requirement, and the ideas are well-organized. However, there is no specific mention of formatting or citations, which are important for an exemplary score.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student provides a thoughtful response to the question, showing a good understanding of the material and addressing the key concepts. The insights into the connection between land and Dakota identity are well articulated.",
+      "score_received": "0.85"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.85 * 0.3",
+      "result": "0.255"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.315 + 0.28 + 0.255",
+    "result": "0.85"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "85"
+  },
+  "overall_feedback": "The student's response demonstrates a strong understanding of the connection between land and Dakota cultural identity, with clear and concise academic presentation. For further improvement, attention to formatting and citations could enhance the scholarly presentation."
+}
+```

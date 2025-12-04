@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a clear understanding of the significance of land to the Dakota people, referencing sacred stories, ceremonies, and generational memory. The response succinctly connects these elements to the Dakota's cultural and spiritual identity.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is clear and free from grammatical errors. The word count meets the minimum requirement, and the key ideas are articulated effectively. However, no formal citations are provided, although in the context given, none were required.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The answer provides strong insight into the question by directly addressing the reason land is central to Dakota religion and cultural identity. The student effectively follows the instructions, demonstrating proficiency and understanding.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.35 + 0.3",
+    "result": "1.0"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "100"
+  },
+  "overall_feedback": "The student's response is exemplary across all criteria, demonstrating a thorough understanding of the significance of land to the Dakota people and effectively communicating insights with clarity and precision."
+}
+```

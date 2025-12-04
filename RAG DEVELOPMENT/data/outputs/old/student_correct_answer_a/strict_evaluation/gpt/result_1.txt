@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a proficient understanding of course materials by highlighting the centrality of land in Dakota religion and culture. However, the connections could be further elaborated with more examples or specific details.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is clear and free from grammatical errors. The length meets the minimum word requirement. However, there are no citations, which are expected in scholarly work.",
+      "score_received": "0.7"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student addresses the instructional question thoroughly and demonstrates insight into the material, but does not introduce new questions or external research.",
+      "score_received": "0.9"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.7 * 0.35",
+      "result": "0.245"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.9 * 0.3",
+      "result": "0.27"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.245 + 0.27",
+    "result": "0.795"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "79.5"
+  },
+  "overall_feedback": "The student shows a good understanding of the connection between land and Dakota cultural identity. To improve, the response could include more detailed examples and appropriate citations to strengthen academic presentation."
+}
+```

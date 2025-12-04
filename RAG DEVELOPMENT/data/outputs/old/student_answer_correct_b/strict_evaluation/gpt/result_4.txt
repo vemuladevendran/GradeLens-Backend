@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student's answer demonstrates a solid comprehension of the course materials by explaining the centrality of land to Dakota religion and cultural identity. The explanation is coherent and supported by relevant details, but it lacks the depth and multiple examples required for an exemplary level.",
+      "score_received": "0.85"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's answer is clear and free from errors, ensuring clarity of ideas. The word count meets the minimum requirement, and the presentation style aligns well with the prompt.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The response provides comprehensive insight into the instructional question and adheres to the directions given. However, it does not introduce new questions or external research to enrich the discussion.",
+      "score_received": "0.9"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "0.85 * 0.35",
+      "result": "0.2975"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "0.9 * 0.3",
+      "result": "0.27"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.2975 + 0.35 + 0.27",
+    "result": "0.9175"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "91.75"
+  },
+  "overall_feedback": "The student demonstrates a strong understanding of the importance of land to the Dakota people and presents their ideas in a clear and well-organized manner. While the answer is insightful, it could be enhanced by providing additional examples or connections to the course materials."
+}
+```

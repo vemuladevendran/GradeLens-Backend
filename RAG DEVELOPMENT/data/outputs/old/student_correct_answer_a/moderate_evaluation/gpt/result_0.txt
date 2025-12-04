@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a strong comprehension of the course materials and their applications. The answer makes insightful and relevant connections between the land and Dakota religion and cultural identity, using well-contextualized explanations.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The presentation is clear and free from errors, with proper formatting. The length exceeds the minimum word count, and the response is well-structured.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The response provides insightful connections to the instructional question, demonstrating a strong understanding and adherence to directions.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.35 + 0.3",
+    "result": "1"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "100"
+  },
+  "overall_feedback": "The student has done an exemplary job in addressing the question, demonstrating a comprehensive understanding of the course materials and presenting their answer clearly and insightfully."
+}
+```

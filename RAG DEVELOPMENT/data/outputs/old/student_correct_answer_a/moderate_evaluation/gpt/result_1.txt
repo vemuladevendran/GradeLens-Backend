@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a strong understanding of the course materials, making insightful connections to the Dakota people's relationship with land. The response effectively integrates course content into the explanation.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The presentation is clear and well-organized, with ideas easily understood. The response meets the minimum word requirement. However, there are no citations included, which is a minor issue.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The student provides a comprehensive and insightful answer to the question, demonstrating a clear engagement with the material and effectively following the directions.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.315 + 0.3",
+    "result": "0.965"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "96.5"
+  },
+  "overall_feedback": "The student has provided a well-written and insightful reflection that demonstrates a strong understanding of the course materials and effectively answers the question. While the response is mostly free from errors and well-presented, the absence of citations is noted, albeit a minor issue. Overall, excellent work."
+}
+```

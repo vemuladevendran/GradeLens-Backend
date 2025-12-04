@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrated an exemplary understanding of the course material by accurately discussing the centrality of land in Dakota religion and cultural identity. The response made insightful connections between land, history, spirituality, and cultural continuity.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is well-articulated and free from significant grammatical errors. The length of the response meets the minimum word count requirement. However, the response does not provide citations for the material referenced, which slightly impacts the scholarly presentation.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student provided an exemplary insight into the instructional question, clearly addressing why land is central to the Dakota's cultural and religious identity. The response shows a strong understanding and engagement with the instructional material.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.315 + 0.3",
+    "result": "0.965"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "96.5"
+  },
+  "overall_feedback": "The student provided a well-articulated and insightful reflection on the importance of land to Dakota culture and religion. The response demonstrated a strong understanding of the course materials and effectively engaged with the instructional question. Improving citation practices could enhance the scholarly presentation."
+}
+```

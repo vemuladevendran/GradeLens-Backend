@@ -1,0 +1,13 @@
+Criterion,Weight,Level,Description
+Critical Analysis (understanding of course materials),0.35,Exemplary,Reflection demonstrates an excellent understanding of course materials and its applications. Insightful and relevant connections are made through contextual explanations or examples or experiences.
+Critical Analysis (understanding of course materials),0.35,Proficient,Reflection displays an understanding of course materials and its applications. Connections are made through explanations or examples or experiences.
+Critical Analysis (understanding of course materials),0.35,Limited,Reflection repeats and summarizes course materials with few connections made and lacks supporting details.
+Critical Analysis (understanding of course materials),0.35,Unacceptable,Reflection shows little or no evidence that the course materials have been read or understood. No examples or connections are made.
+Academic and Scholarly Presentation,0.35,Exemplary,Clear articulation free from errors. Easy to understand ideas. Follows proper formatting. Word/paper length is within minimum word count.
+Academic and Scholarly Presentation,0.35,Proficient,Reflections are generally well-prepared and largely free of errors. Minor formatting errors. The style of presentation generally follows prompt. Word count/paper length falls a bit short.
+Academic and Scholarly Presentation,0.35,Limited,Reflections include some mistakes. The style of presentation struggles with clarity. Word count/paper length is well under minimum requirement.
+Academic and Scholarly Presentation,0.35,Unacceptable,Responses are not prepared or largely unclear or unrelated. Significant formatting errors. Fails to communicate ideas clearly. Less than minimum word count/paper length.
+Portrays Insight (follows instructional questions),0.3,Exemplary,"Provides insight from course material into the outlined questions in the instructions, demonstrating a proficiency of the material and ability to follow directions. Student posts the assigned number of replies by the proposed assignment deadline. Student replies are substantive and deepen the conversation by posing new questions and bringing in outside research and perspectives."
+Portrays Insight (follows instructional questions),0.3,Proficient,Engages with course material but does not cover all instructional questions well. Limited examples or connections are made.
+Portrays Insight (follows instructional questions),0.3,Limited,Answers superficially without much insight.
+Portrays Insight (follows instructional questions),0.3,Unacceptable,Does not engage the instructional questions or avoids course material altogether.

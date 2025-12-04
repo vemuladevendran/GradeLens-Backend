@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student's answer demonstrates a solid understanding of the course materials. The connections between land, cultural identity, and spiritual meaning are clearly articulated. However, the answer could be further enhanced with more detailed contextual explanations or examples.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student’s response is well articulated and free from errors. The word count meets the minimum requirement. The ideas are clear and effectively communicated. However, there is no mention of cited sources, which is a minor issue.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The answer addresses the instructional question effectively and demonstrates a good level of insight into the course material. While it engages with the question, it does not introduce new inquiries or external research.",
+      "score_received": "0.7"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.7 * 0.3",
+      "result": "0.21"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.315 + 0.21",
+    "result": "0.805"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "80.5"
+  },
+  "overall_feedback": "The student provides a well-rounded reflection that showcases a clear understanding of the Dakota's cultural and spiritual connection to land. There is room for improvement in providing more detailed examples and exploring new perspectives. Overall, the presentation is strong, but referencing could be improved."
+}
+```

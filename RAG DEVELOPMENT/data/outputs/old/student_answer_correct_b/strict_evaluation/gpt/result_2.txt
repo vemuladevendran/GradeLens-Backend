@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a proficient understanding of the course material by accurately explaining why land is central to Dakota religion and culture. Connections are made with clear explanations of sacred stories and generational memory. However, the depth of contextual explanation could be further enriched.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's presentation is mostly clear and error-free, adhering to the minimum word requirement. While the response is concise, it lacks the precision and detail expected at exemplary level.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student provides insight into the significance of land to the Dakota, engaging with the course material. However, the response could delve deeper into additional aspects or examples to reach an exemplary level.",
+      "score_received": "0.7"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.7 * 0.3",
+      "result": "0.21"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.28 + 0.21",
+    "result": "0.77"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "77"
+  },
+  "overall_feedback": "The student has provided a competent reflection on the importance of land to Dakota religion and cultural identity, meeting the minimum requirements. To improve, the student could enhance the depth of analysis and provide more detailed examples or insights."
+}
+```

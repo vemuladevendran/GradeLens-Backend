@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student demonstrates a solid understanding of the course materials by explaining how land is central to Dakota religion and culture. The response makes relevant connections between land, cultural identity, and spirituality with clear explanations.",
+      "score_received": "0.85"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The reflection is well-presented, clear, and free of significant errors. It adheres to the minimum word count requirement and presents ideas coherently.",
+      "score_received": "0.95"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.30",
+      "feedback": "The answer demonstrates a good understanding of the material, addressing the question adequately with relevant examples and connections.",
+      "score_received": "0.80"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.85 * 0.35",
+      "result": "0.2975"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.95 * 0.35",
+      "result": "0.3325"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.80 * 0.30",
+      "result": "0.24"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.2975 + 0.3325 + 0.24",
+    "result": "0.87"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "87"
+  },
+  "overall_feedback": "The student provides a comprehensive and well-structured response, clearly linking the significance of land to the Dakota's cultural and religious identity. The presentation is clear and follows the requirements. There is a good balance of insight and understanding of the course materials."
+}
+```

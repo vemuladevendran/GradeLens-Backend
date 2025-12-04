@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis",
+      "weight": "0.35",
+      "feedback": "The student provides a clear understanding of the centrality of land to Dakota religion and cultural identity. The answer makes pertinent connections to the course material, mentioning sacred stories, ceremonies, and generational memory. However, it could benefit from more depth and specific examples.",
+      "score_received": "0.8"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's answer is articulate and free of errors, meeting the minimum word requirement. However, since this is a short response, there are no citations or formatting elements to evaluate.",
+      "score_received": "0.9"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "weight": "0.3",
+      "feedback": "The student directly addresses the instructional question with a concise and relevant response but does not elaborate or extend the discussion with additional questions or external research.",
+      "score_received": "0.7"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis",
+      "calculation": "0.8 * 0.35",
+      "result": "0.28"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "0.9 * 0.35",
+      "result": "0.315"
+    },
+    {
+      "criterion": "Portrays Insight",
+      "calculation": "0.7 * 0.3",
+      "result": "0.21"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.28 + 0.315 + 0.21",
+    "result": "0.805"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "80.5"
+  },
+  "overall_feedback": "The student demonstrates a good understanding of the material and presents their ideas clearly, though additional depth and connection to external sources could enhance the reflection. The answer is concise and meets the minimum requirements."
+}
+```

@@ -1,0 +1,126 @@
+[TITLE]: student_answer_correct_a
+
+[PROMPT]: 
+    You are grading a student's answer using the following rubric:
+
+    Rubric:
+    - Criterion: Critical Analysis (understanding of course materials) (Weight: 0.35)
+  - Level => Exemplary: Reflection demonstrates an excellent understanding of course materials and its applications. Insightful and relevant connections are made through contextual explanations, examples, or experiences.
+  - Level => Proficient: Reflection displays an understanding of course materials and its applications. Connections are made through explanations, examples, or experiences.
+  - Level => Limited: Reflection repeats and summarizes course materials with few connections made and lacks supporting details.
+  - Level => Unacceptable: Reflection shows little or no evidence that the course materials have been read or understood. No examples or connections are made.
+
+- Criterion: Academic and Scholarly Presentation (Weight: 0.35)
+  - Level => Exemplary: Clear articulation free from errors. Easy to understand ideas. Follows proper formatting. Where source material is referenced, proper citation is included. Word/paper length is within minimum word count.
+  - Level => Proficient: Reflections are generally well-prepared and largely free of errors. Minor formatting errors. The style of presentation generally follows prompt. Where references are made, proper citation is generally noted. Word count/paper length falls a bit short.
+  - Level => Limited: Reflections include some mistakes. The style of presentation struggles with clarity. Formatting errors.� Sources not cited well or at all. Word count/paper length is well under minimum requirement.
+  - Level => Unacceptable: Responses are not prepared or largely unclear or unrelated. Significant formatting errors. Fails to communicate ideas clearly. Less than minimum word count/paper length.
+
+- Criterion: Portrays Insight (follows instructional questions) (Weight: 0.3)
+  - Level => Exemplary: Provides insight from course material into the outlined questions in the instructions, demonstrating a proficiency of the material and ability to follow directions.Student posts the assigned number of replies by the proposed assignment deadline. Student replies are substantive and deepen the conversation by posing new questions and bringing in outside research and perspectives.
+  - Level => Proficient: Engages with course material but does not cover all instructional questions well. Limited examples or connections are made.
+  - Level => Limited: Answers superficially without much insight.
+  - Level => Unacceptable: Does not engage the instructional questions or avoids course material altogether.
+
+
+
+    Minimum word requirement for the answer: 50 words.
+
+    Context from notes:
+    Dakota, the land remembers.
+
+Minnesota, including its rivers, lakes, rocks, land forms, and village sites, all have generational and spiritual meaning. In an 1851 US treaty however, the Dakota were tricked off their land and forced onto a reservation in 1853. Trickery was a common practice for the US government against Native tribes as a means of acquiring their land for white settlement and corporate investment. In 1862, resentment grew and led to the 1862 war, which led to the creation of a concentration camp at Fort Snelling (1862 -1863). All Dakota were punished and terrorized though public killings of Dakota leaders and others, which got so bad, that President Abraham Lincoln stepped in and counter it. Lincoln commuted by executive order 250 Dakotas who were arranged to be publicly executed by hanging. As part of this war, the Dakota were exiled in 1863 from their ancestral lands, paving the way for the white development of the city of Minneapolis, Minnesota. Many however, years later, found their way back, and today there is a sizable population of Dakota in the city. Land has always been critical for the Dakota, as it represents the center of history and culture, where time and place are contained. It is the Prime Meridian of their cosmology (or religion). Land had long been regulated by seasonal patterns, with contact with white traders, government representatives, and missionaries as early as the 1600s. Though their ends were different, their goals were to change the Dakotas, either by taking their land, transforming them into agriculturalists (from hunters), or eradi cating their language, culture, traditions or dress. In the building of Minnesota, urban development, airport, and highway projects destroyed burial grounds and other sacred sites and made the protection of sacred sites largely ineffective. Sacred Power of Place Loss of land has been seen as a type of loss of cultural identity, making difficult to separate Indigenous religion from geographic spaces. Native religion is not faith or belief, but geography and its ancestral connections. However, for many indige nous tribes and nations, they have been denied access to these geographic spaces. It is important to include indigenous voices as a means of understanding their religion, but there has been a significant erasure of Native voices in Minnesota, as well as th roughout the US. Geographic spaces have history and memory in indigenous religion, marked by stories and practices that express their power. Collective memories make space sacred for the Dakota, and despite historical and continued threats by American corp orations and governmental policies, there continues an intimate relationship with this land. While still feeling the legal and cultural weight of bad faith governmental treaties and concentration camps, there has been recent attempts to reclaim this land a nd to educate others as to its history - a history not marked by possession, but rather that of sacred stories, language, and ceremonies. Land is memory and a place of sacred power. Many Dakota have forgotten these stories, but as it is believed among the Dakota, the land remembers.
+
+Native American Cosmologies ("Religion") As one historian explained it: “The Religion of the American Indian turns out to be the multi - colored, many -layered religious patterns of hundreds of distinct Indian tribes and villages….” Religious Pluralism in the Americas was a given long before the arr ival of the varied religions of Europeans. As you will see when we look at Hinduism, looking at Native American "religion" is not that different than looking at India in its extreme diversity before it was given the illusory unifying term "Hindu" that was then connected to an "ism", thus inventing a new "thing" we call "Hinduism". In 2017, the American federal government recognized 567 different indigenous tribes in North America, and each of these tribes have their own stories, sacred spaces, and religious themes. Each one is it's own. Among these various traditions, there are no centralized leaders, no central theology, no shared foundational myths, no orthodoxy ("right belief") or orthopraxy ("right practice"). There are no central text or founders. Each indigenous religion in America then would have to be looked at from its own cultural and geographical placement. Calling it a "world religion" may seem off (and perhaps it is), but no more than calling Hinduism a "world religion". Nonetheless, as with Hind uism, there are similarities in worldview, particularly in the idea of spirits that animate the world, vision quests to engage spirits, and cyclical time (as opposed to lineal time), and notions of reincarnation into animals and plant life. Rituals are hol istic, involving eating, hunting, death, birth, and puberty. The gist of Shoshoni religion (from the American west) by way of example is to maintain purity and honor spirits and sacred places, while seeking the supernatural power of visions and dreams. Visions and dreams give you eyes to see the other (higher) world , in a way that changes how you view this mundane world. This would be the "groovin'" aspect. Religious rituals intertwine all aspects of life, and when life is broken up, either from uprooting tribes off ancestral lands, sending children to federal Boardi ng Schools, or bringing in pipelines or reclaimed snow on sacred mountains, religion and culture are directly affected and sometimes rendered impossible. In a way that hinges upon land and geography, native religion structured and ordered all aspects of life. This is part of the "Doin'" side of things. Native religion is deeply woven together with geography, language, and people, as seen in the example of the Dakota below. Mni Sota Makoce: The Land of the Dakota Mni Sota ["where the water reflects the sky" ] Makoce is seen by Dakota Indians as the place of human origin - the center of the world. The land of the Dakota surrounds the place where the Mississippi and Minnesota rivers converge, a place that marks the center of earth, just under the gate of heaven . This is where the earth is conjoined with the star tribe, where humans come from. The entirety of Minnesota, including its rivers, lakes, rocks, land forms, and village sites, all have generational and spiritual meaning. In an 1851 US treaty however, the Dakota were tricked off their land and forced onto a reservation in 1853. Trickery was a common practice for the US government against Native tribes as
+
+    Question: Why is land considered central to the religion and cultural identity of the Dakota people?
+    Student Answer: Land is central to Dakota religion and cultural identity because it represents the center of history and culture, where time and place are contained. Sacred spaces, rivers, lakes, rocks, and village sites carry generational and spiritual meaning, linking humans to their origin and the star tribe. Loss of land through trickery, wars, and urban development has been experienced as a loss of cultural identity, making indigenous religion inseparable from geographic spaces. The Dakota view land not just as territory but as memory and sacred power, holding stories, language, and ceremonies that maintain their spiritual and cultural continuity.
+
+    Student's Answer Length: 97 words.
+
+    Instructions:
+    - Score each criterion separately on a scale of 0 to 1.
+    - Provide reasoning for each score.
+    - Compute the weighted final score out of 100.
+    - If something is wrong or missing, explain why.
+
+    I want you to give the output in a JSON format only. I want you to follow the following template strictly:
+
+    {
+    "criteria": [
+        {
+        "criterion": "{criterion_name}",
+        "weight": "{weight}",
+        "feedback": "{feedback}",
+        "score_received": "{score_received}"
+        }
+    ],
+    "final_weighted_score_calculation": [
+        {
+        "criterion": "{criterion_name}",
+        "calculation": "{score_received} * {weight}",
+        "result": "{calculation_result}"
+        }
+    ],
+    "total_score": {
+        "calculation": "{score1} + {score2} + ... + {scoreN}",
+        "result": "{total_score}"
+    },
+    "final_score": {
+        "out_of": "{overall_score}",
+        "score": "{final_score}"
+    },
+    "overall_feedback": "{overall_feedback}"
+    }
+    
+
+[RESULT]: ```json
+{
+    "criteria": [
+        {
+            "criterion": "Critical Analysis (understanding of course materials)",
+            "weight": "0.35",
+            "feedback": "The student's reflection demonstrates a strong understanding of the course materials by effectively explaining the significance of land in Dakota religion and culture. The student makes relevant connections to the historical and spiritual context.",
+            "score_received": "1"
+        },
+        {
+            "criterion": "Academic and Scholarly Presentation",
+            "weight": "0.35",
+            "feedback": "The student's answer is clear and free of errors. Proper formatting is followed, and the response is within the required word count. However, there is no explicit mention of citations, which could be improved.",
+            "score_received": "0.9"
+        },
+        {
+            "criterion": "Portrays Insight (follows instructional questions)",
+            "weight": "0.3",
+            "feedback": "The student provides insightful answers that directly address the instructional question, demonstrating a good grasp of the material and how to follow directions.",
+            "score_received": "1"
+        }
+    ],
+    "final_weighted_score_calculation": [
+        {
+            "criterion": "Critical Analysis (understanding of course materials)",
+            "calculation": "1 * 0.35",
+            "result": "0.35"
+        },
+        {
+            "criterion": "Academic and Scholarly Presentation",
+            "calculation": "0.9 * 0.35",
+            "result": "0.315"
+        },
+        {
+            "criterion": "Portrays Insight (follows instructional questions)",
+            "calculation": "1 * 0.3",
+            "result": "0.3"
+        }
+    ],
+    "total_score": {
+        "calculation": "0.35 + 0.315 + 0.3",
+        "result": "0.965"
+    },
+    "final_score": {
+        "out_of": "100",
+        "score": "96.5"
+    },
+    "overall_feedback": "The student provides a well-rounded answer that demonstrates a strong understanding of the course material and effectively addresses the instructional question. While the presentation is largely clear and follows guidelines, explicit citations where needed could enhance academic rigor."
+}
+```

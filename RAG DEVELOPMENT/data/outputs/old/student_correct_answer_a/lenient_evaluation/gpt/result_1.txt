@@ -1,0 +1,50 @@
+```json
+{
+  "criteria": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "weight": "0.35",
+      "feedback": "The student demonstrates an exemplary understanding of the course materials, providing a comprehensive explanation of why land is central to Dakota religion and culture. The answer includes thoughtful connections to the historical and spiritual significance of land.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "weight": "0.35",
+      "feedback": "The student's response is well-written with minimal errors and meets the word count requirement. The answer is clear and includes relevant citations from the course notes.",
+      "score_received": "1"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "weight": "0.3",
+      "feedback": "The response shows insightful engagement with the course material and addresses the question thoroughly. The student effectively connects the historical context with the spiritual significance of land for the Dakota.",
+      "score_received": "1"
+    }
+  ],
+  "final_weighted_score_calculation": [
+    {
+      "criterion": "Critical Analysis (understanding of course materials)",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Academic and Scholarly Presentation",
+      "calculation": "1 * 0.35",
+      "result": "0.35"
+    },
+    {
+      "criterion": "Portrays Insight (follows instructional questions)",
+      "calculation": "1 * 0.3",
+      "result": "0.3"
+    }
+  ],
+  "total_score": {
+    "calculation": "0.35 + 0.35 + 0.3",
+    "result": "1.0"
+  },
+  "final_score": {
+    "out_of": "100",
+    "score": "100"
+  },
+  "overall_feedback": "The student has provided a thorough and insightful response that clearly demonstrates a deep understanding of the course materials and effectively addresses the question. The presentation is clear and well-structured, adhering to academic standards."
+}
+```
